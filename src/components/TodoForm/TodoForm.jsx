@@ -14,14 +14,14 @@ function TodoForm(props) {
     };
 
     return (
-        <forms onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
         <input 
-        value={value}
-        type="text" 
-        placeholder="Add Todo..."
-        onChange={(event) => setValue(event.target.value)} 
+            value={value}
+            type="text" 
+            placeholder="Add Todo..."
+            onChange={(event) => setValue(event.target.value)} 
         />
-        </forms>
+        </form>
     );
 }
 
